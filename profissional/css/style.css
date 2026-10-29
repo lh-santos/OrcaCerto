@@ -7,6 +7,7 @@
 :root {
     --color-white:#fff;
     --color-main:#b1701b;
+    --color-blue:#002f75;
 }
 
 body {
@@ -24,17 +25,34 @@ header {
     align-items: center;
 }
 
+header img {
+    width: 8vh;
+}
+
 header h1{
     margin: 1vh;
+
 }
 
 header a{
+    display: flex;
+    align-items: centerN;
     text-decoration: none;
-    color: black;
+    color: var(--color-blue);
+}
+
+header .link{
+    border-radius: 10px;
+    padding: 1vh;
+    text-decoration: none;
+    color: var(--color-blue);
+    background-color: #00000060;;
 }
 
 nav {
-    margin: 2em;
+    display: flex;
+    margin: 3vh;
+    gap: 2em;
 }
 
 .contener-main {
